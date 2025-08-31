@@ -10503,6 +10503,10 @@ textarea {
       .post-content-body{
           font-size: 19px!important;
       }
+      .page-title{
+          color: #0360b0!important;
+          font-weight: 700!important;
+      }
 
 /* 手機優先：小螢幕顯示 .mobile，隱藏 .pc */
 .mobile {
