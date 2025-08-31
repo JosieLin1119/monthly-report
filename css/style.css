@@ -10499,6 +10499,11 @@ textarea {
         background: #fff;
         color: #214252; }
 
+
+      .post-content-body{
+          font-size: 19px!important;
+      }
+
 /* 手機優先：小螢幕顯示 .mobile，隱藏 .pc */
 .mobile {
     display: block;
