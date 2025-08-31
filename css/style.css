@@ -9275,7 +9275,7 @@ textarea.form-control-lg {
       padding: 10px 10px;
       display: inline-block;
       text-decoration: none !important;
-      color: rgba(255, 255, 255, 0.7); }
+      color: rgb(64 63 63 / 49%); }
       .site-nav .site-navigation .site-menu > li > a:hover {
         color: #fff; }
     .site-nav .site-navigation .site-menu > li.active > a {
@@ -10501,3 +10501,21 @@ textarea {
       .site-footer .social li a:hover {
         background: #fff;
         color: #214252; }
+
+/* 手機優先：小螢幕顯示 .mobile，隱藏 .pc */
+.mobile {
+    display: block;
+}
+.pc {
+    display: none;
+}
+
+/* 平板/桌面（>=768px）反過來：顯示 .pc，隱藏 .mobile */
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    .pc {
+        display: block;
+    }
+}
