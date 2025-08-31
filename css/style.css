@@ -6353,9 +6353,6 @@ textarea.form-control-lg {
   -webkit-box-align: stretch !important;
   -ms-flex-align: stretch !important;
   align-items: stretch !important; }
-  .align-items-stretch  .mobile{
-    display: none;
-  }
 
 .align-content-start {
   -ms-flex-line-pack: start !important;
