@@ -26,7 +26,12 @@
     <link rel="stylesheet" href="css/flatpickr.min.css">
 
     <title>Jenny's 總監月報</title>
-    <script src="js/monthly-navigation.js"></script>
+
+    <!-- 載入配置文件 -->
+    <script src="js/config.js"></script>
+    <!-- 載入自動導航生成器 - 必須在 navbar.js 之前 -->
+    <script src="js/nav-generator.js"></script>
+
 </head>
 <body>
 
@@ -50,8 +55,9 @@
                     </div>
                     <div class="col-8 text-center">
                         <div class="page-title mobile page-title">總監月報</div>
-                        <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-                            <!-- 動態生成的月份導航選單 -->
+                        <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto" id="nav-menu">
+                            <!-- 自動產生 -->
+
                         </ul>
                     </div>
                     <div class="col-2 text-end">
@@ -495,6 +501,17 @@
 <script src="js/counter.js"></script>
 <script src="js/custom.js"></script>
 
+<script>
+// index.html 特殊邏輯：重定向到當前月份
+document.addEventListener('DOMContentLoaded', function() {
+    // 如果當前是 index.html，重定向到配置的月份
+    if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/')) {
+        if (MONTH_CONFIG[CURRENT_MONTH]) {
+            window.location.href = MONTH_CONFIG[CURRENT_MONTH].file;
+        }
+    }
+});
+</script>
 
 </body>
 </html>
