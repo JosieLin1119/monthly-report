@@ -7,10 +7,10 @@ const MONTH_CONFIG = {
         file: '2025Jul.html',
         title: '2025_07月'
     },
-    // '2025Aug': {
-    //     file: '2025Aug.html', 
-    //     title: '2025_08月'
-    // },
+    '2025Aug': {
+        file: '2025Aug.html', 
+        title: '2025_08月'
+    },
     // '2025Sep': {
     //     file: '2025Sep.html',
     //     title: '2025_09月'
