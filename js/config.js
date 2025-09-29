@@ -1,5 +1,5 @@
 // 月報配置文件 - 只需要改這裡就能控制所有頁面
-const CURRENT_MONTH = '2025Jul'; // 改成: 2025Jul, 2025Aug, 2025Sep 等
+const CURRENT_MONTH = '2025Aug'; // 改成: 2025Jul, 2025Aug, 2025Sep 等
 
 // 月份對應配置
 const MONTH_CONFIG = {
