@@ -4,7 +4,7 @@
     const MONTHS = {
         '2025Jul.html': '2025_07月'
         ,'2025Aug.html': '2025_08月'
-        //'2025Sep.html': '2025_09月'
+        ,'2025Sep.html': '2025_09月'
     };
     
     function generateNav() {
