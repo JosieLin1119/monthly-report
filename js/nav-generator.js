@@ -6,6 +6,9 @@
         ,'2025Aug.html': '2025_08月'
         ,'2025Sep.html': '2025_09月'
         ,'2025Oct.html': '2025_10月'
+        ,'2025Nov.html': '2025_11月'
+        ,'2025Dec.html': '2025_12月'
+        ,'2026Jan.html': '2026_01月'
     };
     
     function generateNav() {
