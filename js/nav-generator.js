@@ -9,6 +9,7 @@
         ,'2025Nov.html': '2025_11月'
         ,'2025Dec.html': '2025_12月'
         ,'2026Jan.html': '2026_01月'
+        ,'2026Feb.html': '2026_02月'
     };
     
     function generateNav() {
