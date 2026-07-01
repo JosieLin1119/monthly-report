@@ -1,5 +1,5 @@
 // 月報配置文件 - 只需要改這裡就能控制所有頁面
-const CURRENT_MONTH = '2026Feb'; // 改成: 2025Jul, 2025Aug, 2025Sep 等
+const CURRENT_MONTH = '2026May'; // 改成: 2025Jul, 2025Aug, 2025Sep 等
 
 // 月份對應配置
 const MONTH_CONFIG = {
@@ -34,5 +34,18 @@ const MONTH_CONFIG = {
     '2026Feb': {
         file: '2026Feb.html',
         title: '2026_02月'
+    },
+    '2026Mar': {
+        file: '2026Mar.html',
+        title: '2026_03月'
+    },
+    '2026Apr': {
+        file: '2026Apr.html',
+        title: '2026_04月'
+    },
+    '2026May': {
+        file: '2026May.html',
+        title: '2026_05月'
     }
+
 };

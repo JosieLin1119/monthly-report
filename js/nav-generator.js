@@ -10,6 +10,9 @@
         ,'2025Dec.html': '2025_12月'
         ,'2026Jan.html': '2026_01月'
         ,'2026Feb.html': '2026_02月'
+        ,'2026Mar.html': '2026_03月'
+        ,'2026Apr.html': '2026_04月'
+        ,'2026May.html': '2026_05月'
     };
     
     function generateNav() {
