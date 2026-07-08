@@ -13,6 +13,7 @@
         ,'2026Mar.html': '2026_03月'
         ,'2026Apr.html': '2026_04月'
         ,'2026May.html': '2026_05月'
+        ,'2026Jun.html': '2026_06月'
     };
     
     function generateNav() {
